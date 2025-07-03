@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(230, 240, 238);
+    margin: 0;
+
+} 
+nav a, nav li{
+    color: rgb(242, 168, 30);
+  
+}
+h1 {
+    font-size: 40px;
+    font-family: "Fraunces", serif;
+    margin: 40px 0 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+header {
+    font-family: "Pacifico", cursive;
+    font-size: 50px;
+    color: rgb(236, 238, 238);
+    text-shadow: 0 0 30px rgba(2, 2, 2, 0.5);
+    padding-top: 300px;
+}
+
+ul {
+    margin: 5px 0;
+}
+h2 {
+    margin: 0.83em 0 0 0;
+}
+footer {
+    /* background-image: url("https://img.freepik.com/premium-vector/japanese-pattern-shape-doodle-geometric-red-color_1046402-326.jpg?w=740");
+   background-size: 100px;
+   background-repeat: repeat-x ; */
+    background: left/100px  url("https://img.freepik.com/premium-vector/japanese-pattern-shape-doodle-geometric-red-color_1046402-326.jpg?w=740"), black;
+    padding: 15px;
+    font-size: 11px;
+    font-family: "Pacifico", cursive;
+}
+
+#bienvenue {
+   background: url("../images/tokyo.avif");
+   background-repeat: no-repeat;
+   background-size: cover ;
+   height: 100vh;
+   display:flex ;
+   justify-content: center;
+  
+}
+
+#slogan {
+    display: block;
+    font-size: 30px;
+    font-family: "Roboto", arial, sans-serif;
+    text-shadow: 0 0 70px rgba(2, 2, 2, 0.5);
+    color: white;
+}
+#top {
+    text-align: center;
+    font-size: 19px;
+}
+.contenu {
+   width: 1300px ;
+   margin: 0 auto;
+}
+.flexbox-ville {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#tokyo {
+    background-image: url("../images/tokyo.avif");
+}
+
+#kyoto {
+    background-image: url("/images/kyoto.jpg");
+}
+
+#osaka {
+    background-image: url("/images/osaka1.jpg");
+}
+#kinshasa {
+    background-image: url("/images/kinshasa.jpg");
+}
+
+#paris {
+    background-image: url("/images/paris.webp");
+}
+
+#newyork {
+    background-image: url("/images/newyork.jpeg");
+}
+
+.ville {
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+    margin-top: 20px;
+    font-size: 40px;
+    color: white;
+    text-shadow: 0 0 30px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
