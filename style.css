@@ -74,7 +74,7 @@ footer {
 }
 
 #tokyo {
-    background-image: url("../images/tokyo.avif");
+    background-image: url("/images/tokyo.jpg");
 }
 
 #kyoto {
@@ -100,12 +100,18 @@ footer {
     background-size: cover;
     width: 400px;
     height: 400px;
+    border: 3px solid rgb(244, 247, 247);
     border-radius: 30px;
     margin-top: 20px;
     font-size: 40px;
     color: white;
     text-shadow: 0 0 30px black;
-    display: flex;
+    display: flex; 
     align-items: center;
     justify-content: center;
+}
+.ville:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+    border: 3px solid #FF7373;
 }
